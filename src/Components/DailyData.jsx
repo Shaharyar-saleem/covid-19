@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import { Line, Bar } from "react-chartjs-2";
-import { DialogTitle } from "@material-ui/core";
 import style from './styling.module.css';
 
 export default function DailyData({ data: { confirmed, recovered, deaths }, country }) {
