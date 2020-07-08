@@ -70,7 +70,9 @@ export default function Navbar() {
       <AppBar position="static">
         <Toolbar>
           <Typography className={classes.title} variant="h6" noWrap>
+            <center>
             <img className={style.coronaImg} src={cronaImage} alt="corona virus" />
+            </center>
           </Typography>
       
         </Toolbar>

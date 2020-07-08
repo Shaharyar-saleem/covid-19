@@ -24,16 +24,23 @@
 .infected {
   border-bottom: 5px solid blue;
   background: #dfdfdf !important;
+  margin-right: 5px !important;
+  margin-left: 5px !important;
+  margin-top: 10px !important;
 }
 .recovered {
   border-bottom: 5px solid green;
   background: #dfdfdf !important;
-  margin-right: 20px !important;
-  margin-left: 20px !important;
+  margin-right: 5px !important;
+  margin-left: 5px !important;
+  margin-top: 10px !important;
 }
 .deaths {
   border-bottom: 5px solid red;
   background: #dfdfdf !important;
+  margin-right: 5px !important;
+  margin-left: 5px !important;
+  margin-top: 10px !important;
 }
 .coronaImg {
   width: 200px;
