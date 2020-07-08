@@ -1,32 +1,41 @@
-.container{
-   margin: 0 auto;
-   margin-top: 50px;
-   text-align: center;
-   margin-bottom: 50px;
-   width: 90%;
+.container {
+  margin: 0 auto;
+  margin-top: 50px;
+  text-align: center;
+  margin-bottom: 50px;
+  width: 90%;
 }
-.chartHeight{
-    height: 300px;
+.chartHeight {
+  height: 200px !important;
+  width: 85%;
+  margin: 0 auto;
 }
-.cardContainer{
-    margin-top: 50px !important;
+.cardContainer {
+  margin-top: 50px !important;
+  text-align: center;
+  justify-content: center;
 }
-.card{
-    margin: 0 2% !important;
+.card {
+  margin: 0 2% !important;
 }
-.paragraph{
-    font-size: 15px !important;
+.paragraph {
+  font-size: 15px !important;
 }
-.infected{
-    border-bottom: 5px solid blue;
+.infected {
+  border-bottom: 5px solid blue;
+  background: #dfdfdf !important;
 }
-.recovered{
-    border-bottom: 5px solid green;
+.recovered {
+  border-bottom: 5px solid green;
+  background: #dfdfdf !important;
+  margin-right: 20px !important;
+  margin-left: 20px !important;
 }
-.deaths{
-    border-bottom: 5px solid red;
+.deaths {
+  border-bottom: 5px solid red;
+  background: #dfdfdf !important;
 }
-.coronaImg{
-    width: 200px;
-    height: 60px;
+.coronaImg {
+  width: 200px;
+  height: 60px;
 }

@@ -70,7 +70,7 @@ export default function DailyData({ data: { confirmed, recovered, deaths }, coun
 
 
 
-  return <div className={style.container, style.chartHeight}>
+  return <div className={style.chartHeight}>
       {country ? barChart : lineChart}
   </div>
 }
